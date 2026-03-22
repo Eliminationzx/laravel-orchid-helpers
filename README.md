@@ -101,54 +101,48 @@ The package automatically registers:
 - `FoundationServiceProvider`: Core service registration
 - `MacrosServiceProvider`: Laravel macro extensions
 
-## Security Configuration
+## Security Feature
 
 The package includes a basic security enhancement to prevent arbitrary class instantiation in the `DeleteActionTrait`.
 
-### Configuration
+### Model Validation
 
-Publish the configuration file to customize allowed models:
+The `DeleteActionTrait` includes a protected `isModelAllowed()` method that validates model classes before instantiation. By default, it checks that:
 
-```bash
-php artisan vendor:publish --tag=orchid-helpers-config
-```
+1. The class exists and is a concrete class (not abstract or interface)
+2. The class extends `Illuminate\Database\Eloquent\Model`
 
-Or manually create `config/orchid-helpers.php` with the following structure:
+This provides basic protection against arbitrary class instantiation from user input.
+
+### Customizing Validation
+
+You can override the `isModelAllowed()` method in your screen class to implement custom validation logic:
 
 ```php
-return [
-    /*
-    |--------------------------------------------------------------------------
-    | Allowed Models for Delete Action
-    |--------------------------------------------------------------------------
-    |
-    | This configuration defines which Eloquent model classes are allowed
-    | to be instantiated via the DeleteActionTrait. This is a security
-    | measure to prevent arbitrary class instantiation from user input.
-    |
-    | You MUST explicitly list all model classes that are allowed.
-    | An empty array means NO models are allowed (strict security).
-    |
-    | Only fully qualified class names are supported (e.g., App\Models\User::class).
-    | Wildcard patterns are NOT supported for stricter security.
-    |
-    */
+use OrchidHelpers\Orchid\Traits\DeleteActionTrait;
+
+class UserScreen
+{
+    use DeleteActionTrait;
     
-    'allowed_models' => [
-        // Example:
-        // App\Models\User::class,
-        // App\Models\Post::class,
-    ],
-];
+    protected function isModelAllowed(string $modelClass): bool
+    {
+        // First, use the parent validation
+        if (!parent::isModelAllowed($modelClass)) {
+            return false;
+        }
+        
+        // Add your custom logic here
+        // Example: Only allow specific models
+        $allowedModels = [
+            \App\Models\User::class,
+            \App\Models\Post::class,
+        ];
+        
+        return in_array($modelClass, $allowedModels);
+    }
+}
 ```
-
-### Security Feature
-
-**Model Allowlist Validation**: The `DeleteActionTrait` validates that the model class from user input is in the `allowed_models` list before instantiation. For strict security, an empty `allowed_models` array means NO models are allowed. You must explicitly list all allowed model classes.
-
-### Upgrading from Previous Versions
-
-Previous versions allowed all models when `allowed_models` was empty (backward compatibility). The new strict security requires explicit configuration. Update your `config/orchid-helpers.php` to explicitly list all allowed model classes.
 
 ## Testing
 
@@ -197,71 +191,11 @@ The testing environment is configured with:
 - Mockery for mocking dependencies
 - Orchestra Testbench for Laravel package testing
 
-### Security Testing
-
-The package includes security tests for the `DeleteActionTrait` to validate:
-- Model class allowlist validation
-- Input parameter validation
-- Authorization checks
-
-### Continuous Integration
-
-GitHub Actions workflow (`.github/workflows/test.yml`) automatically runs tests on:
-- Push to `main` and `develop` branches
-- Pull requests targeting `main` branch
-- Multiple PHP versions (8.3, 8.4)
-- Multiple Laravel versions (11.*)
-
-### Writing New Tests
-
-When adding new functionality, follow the existing test patterns:
-
-1. **Unit Tests**: Test individual components in isolation
-2. **Feature Tests**: Test integration with Laravel and Orchid
-3. **Security Tests**: Validate security-critical functionality
-
-Example test structure:
-```php
-<?php
-
-namespace OrchidHelpers\Tests\Unit;
-
-use OrchidHelpers\Tests\TestCase;
-
-class NewComponentTest extends TestCase
-{
-    /** @test */
-    public function it_performs_expected_behavior()
-    {
-        // Arrange
-        $component = new Component();
-        
-        // Act
-        $result = $component->execute();
-        
-        // Assert
-        $this->assertEquals('expected', $result);
-    }
-}
-```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security-related issues, please email andrey.manzadey@gmail.com instead of using the issue tracker.
-
 ## Credits
 
-- [Andrey Manzadey](https://github.com/manzadey)
+- [Eliminationzx](https://github.com/eliminationzx)
 - [All Contributors](../../contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
