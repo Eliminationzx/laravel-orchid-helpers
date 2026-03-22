@@ -9,13 +9,13 @@ A comprehensive collection of helpers, components, and utilities for Laravel Orc
 ## Features
 
 - **Pre-built Components**: Ready-to-use alerts, buttons, fields, layouts, links, screens, sights, and TD components
-- **Type-safe**: Full PHP 8.3+ type declarations
-- **Modern Stack**: Compatible with latest Orchid Platform 14+ (PHP 8.3+)
+- **Type-safe**: Full PHP 8.2+ type declarations
+- **Modern Stack**: Compatible with latest Orchid Platform 14+ (PHP 8.2+)
 - **Laravel Integration**: Seamless integration with Laravel service providers
 
 ## Requirements
 
-- PHP 8.3 or higher (with modern PHP features: typed properties, `#[\Override]` attribute, union types, etc.)
+- PHP 8.2 or higher (with modern PHP features: typed properties, `#[\Override]` attribute, union types, etc.)
 - Laravel 10.x, 11.x, 12.x or higher
 - Orchid Platform 14.53 or higher (latest version)
 
