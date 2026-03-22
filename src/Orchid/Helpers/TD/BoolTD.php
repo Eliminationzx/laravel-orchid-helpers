@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\TD;
+namespace OrchidHelpers\Orchid\Helpers\TD;
 
 use Illuminate\Database\Eloquent\Model;
 use OrchidHelpers\\View\Components\Platform\BoolComponent;

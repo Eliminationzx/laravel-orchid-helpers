@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Services;
+namespace OrchidHelpers\Services;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Redis;

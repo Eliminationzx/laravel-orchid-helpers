@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Screens;
+namespace OrchidHelpers\Orchid\Helpers\Screens;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;

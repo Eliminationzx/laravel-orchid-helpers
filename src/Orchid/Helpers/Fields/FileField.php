@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Fields;
+namespace OrchidHelpers\Orchid\Helpers\Fields;
 
 use Orchid\Screen\Fields\Upload;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Layouts;
+namespace OrchidHelpers\Orchid\Helpers\Layouts;
 
 use OrchidHelpers\\Orchid\Helpers\Sights\CreatedAtSight;
 use OrchidHelpers\\Orchid\Helpers\Sights\UpdatedAtSight;

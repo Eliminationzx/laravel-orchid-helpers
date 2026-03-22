@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Screens;
+namespace OrchidHelpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
-use Orchid\Helpers\Orchid\Helpers\Layouts\FormLayout;
-use Orchid\Helpers\Orchid\Helpers\Layouts\ModelsTableLayout;
+use OrchidHelpers\Orchid\Helpers\Layouts\FormLayout;
+use OrchidHelpers\Orchid\Helpers\Layouts\ModelsTableLayout;
 
 abstract class SearchScreen extends AbstractScreen
 {

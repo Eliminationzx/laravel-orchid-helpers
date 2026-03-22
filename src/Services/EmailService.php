@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Services;
+namespace OrchidHelpers\Services;
 
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Sights;
+namespace OrchidHelpers\Orchid\Helpers\Sights;
 
 use OrchidHelpers\\View\Components\Platform\BoolComponent;
 use Orchid\Screen\Sight;

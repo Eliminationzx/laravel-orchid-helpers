@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Providers;
+namespace OrchidHelpers\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as BaseAuthServiceProvider;
 use Illuminate\Support\Facades\Auth;

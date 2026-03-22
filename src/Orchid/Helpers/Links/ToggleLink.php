@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Links;
+namespace OrchidHelpers\Orchid\Helpers\Links;
 
 use Orchid\Screen\Actions\Button;
 use Orchid\Support\Color;

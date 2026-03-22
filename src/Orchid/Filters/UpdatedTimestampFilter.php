@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Filters;
+namespace OrchidHelpers\Orchid\Filters;
 
 class UpdatedTimestampFilter extends TimestampFilter
 {

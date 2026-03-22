@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Services;
+namespace OrchidHelpers\Services;
 
 use Orchid\Platform\ItemPermission;
 use RuntimeException;

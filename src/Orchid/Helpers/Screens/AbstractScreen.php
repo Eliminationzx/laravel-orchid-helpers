@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Orchid\Helpers\Screens;
+namespace OrchidHelpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Model;
-use Orchid\Helpers\Orchid\Traits\DeleteActionTrait;
+use OrchidHelpers\Orchid\Traits\DeleteActionTrait;
 use Orchid\Screen\Screen as BaseScreen;
 use Tabuna\Breadcrumbs\Breadcrumbs;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orchid\Helpers\Providers;
+namespace OrchidHelpers\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
