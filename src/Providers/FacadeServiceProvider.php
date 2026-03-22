@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
 
 class FacadeServiceProvider extends ServiceProvider
 {
-    protected $facades = [
+    public $facades = [
         // Register facade bindings
         // Example:
         // 'User' => UserFacade::class,
@@ -17,7 +17,7 @@ class FacadeServiceProvider extends ServiceProvider
         // 'Notification' => NotificationFacade::class,
     ];
 
-    protected $aliases = [
+    public $aliases = [
         // Register facade aliases for Laravel's aliases configuration
         // Example:
         // 'UserFacade' => OrchidHelpers\Facades\UserFacade::class,

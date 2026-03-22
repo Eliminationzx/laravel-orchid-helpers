@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 
 class ServiceServiceProvider extends ServiceProvider
 {
-    protected $services = [
+    public $services = [
         // Register service bindings
         // Example:
         // UserService::class,
@@ -17,7 +17,7 @@ class ServiceServiceProvider extends ServiceProvider
         // CacheService::class,
     ];
 
-    protected $singletons = [
+    public $singletons = [
         // Register singleton service bindings
         // Example:
         // LoggerService::class => LoggerService::class,
