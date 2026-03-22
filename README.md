@@ -10,7 +10,7 @@ A comprehensive collection of helpers, components, and utilities for Laravel Orc
 
 - **Pre-built Components**: Ready-to-use alerts, buttons, fields, layouts, links, screens, sights, and TD components
 - **Type-safe**: Full PHP 8.3+ type declarations
-- **Modern Stack**: Compatible with latest Orchid Platform 14.53+ (PHP 8.3+)
+- **Modern Stack**: Compatible with latest Orchid Platform 14+ (PHP 8.3+)
 - **Laravel Integration**: Seamless integration with Laravel service providers
 
 ## Requirements
