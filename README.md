@@ -74,9 +74,9 @@ The package will automatically register its service providers.
 ## Usage Example
 
 ```php
-use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Screens\EditScreen;
-use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Layouts\ModelLegendLayout;
-use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Fields\BooleanCheckbox;
+use OrchidHelpers\Orchid\Helpers\Screens\EditScreen;
+use OrchidHelpers\Orchid\Helpers\Layouts\ModelLegendLayout;
+use OrchidHelpers\Orchid\Helpers\Fields\BooleanCheckbox;
 
 class UserEditScreen extends EditScreen
 {
