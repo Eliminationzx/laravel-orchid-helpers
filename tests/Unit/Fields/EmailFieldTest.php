@@ -21,7 +21,7 @@ class EmailFieldTest extends TestCase
     {
         // Mock translation
         $this->app['translator']->addLines([
-            'validation.attributes.model.user_email' => 'Электронная почта',
+            'validation.attributes.model.user_email' => 'Email address',
         ], 'ru');
         
         // Set locale to Russian
@@ -29,6 +29,6 @@ class EmailFieldTest extends TestCase
         
         $field = EmailField::make('user_email');
         
-        $this->assertEquals('Электронная почта', $field->get('title'));
+        $this->assertEquals('Email address', $field->get('title'));
     }
 }

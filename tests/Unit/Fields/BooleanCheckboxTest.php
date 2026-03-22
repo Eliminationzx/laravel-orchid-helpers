@@ -23,7 +23,7 @@ class BooleanCheckboxTest extends TestCase
     {
         // Mock translation
         $this->app['translator']->addLines([
-            'validation.attributes.model.is_published' => 'Опубликовано',
+            'validation.attributes.model.is_published' => 'Published',
         ], 'ru');
         
         // Set locale to Russian
@@ -31,6 +31,6 @@ class BooleanCheckboxTest extends TestCase
         
         $checkbox = BooleanCheckbox::make('is_published');
         
-        $this->assertEquals('Опубликовано', $checkbox->get('title'));
+        $this->assertEquals('Published', $checkbox->get('title'));
     }
 }

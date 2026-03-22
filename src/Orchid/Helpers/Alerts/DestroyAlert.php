@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class DestroyAlert
 {
-    public static function make(string $message = 'Данные удалены!') : void
+    public static function make(string $message = 'Data deleted!') : void
     {
         Alert::success(__($message));
     }

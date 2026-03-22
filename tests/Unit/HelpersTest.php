@@ -25,14 +25,14 @@ class HelpersTest extends TestCase
     {
         // Mock translation
         $this->app['translator']->addLines([
-            'validation.attributes.model.user_name' => 'Имя пользователя',
+            'validation.attributes.model.user_name' => 'Username',
         ], 'ru');
         
         // Set locale to Russian
         $this->app->setLocale('ru');
         
         $result = attrName('user_name');
-        $this->assertEquals('Имя пользователя', $result);
+        $this->assertEquals('Username', $result);
     }
     
     public function test_attrName_handles_array_translation()

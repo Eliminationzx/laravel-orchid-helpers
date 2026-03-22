@@ -8,10 +8,10 @@ use Orchid\Support\Facades\Alert;
 
 class TimedAlert
 {
-    public static function make(string $message = 'Уведомление', string $type = 'info', int $seconds = 5) : void
+    public static function make(string $message = 'Notification', string $type = 'info', int $seconds = 5) : void
     {
         // Add timing information to the message
-        $timedMessage = __($message) . ' ' . __('(автоматически закроется через :seconds сек.)', ['seconds' => $seconds]);
+        $timedMessage = __($message) . ' ' . __('(will automatically close in :seconds seconds)', ['seconds' => $seconds]);
         
         switch ($type) {
             case 'success':

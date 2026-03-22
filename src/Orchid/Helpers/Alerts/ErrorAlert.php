@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class ErrorAlert
 {
-    public static function make(string $message = 'Произошла ошибка!') : void
+    public static function make(string $message = 'An error occurred!') : void
     {
         Alert::error(__($message));
     }

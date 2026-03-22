@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class SuccessAlert
 {
-    public static function make(string $message = 'Операция выполнена успешно!') : void
+    public static function make(string $message = 'Operation completed successfully!') : void
     {
         Alert::success(__($message));
     }

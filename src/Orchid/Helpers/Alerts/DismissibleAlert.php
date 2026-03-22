@@ -8,10 +8,10 @@ use Orchid\Support\Facades\Alert;
 
 class DismissibleAlert
 {
-    public static function make(string $message = 'Уведомление', string $type = 'info') : void
+    public static function make(string $message = 'Notification', string $type = 'info') : void
     {
         // Add dismissible indicator to the message
-        $dismissibleMessage = __($message) . ' ' . __('(можно закрыть)');
+        $dismissibleMessage = __($message) . ' ' . __('(can be closed)');
         
         switch ($type) {
             case 'success':

@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class BannerAlert
 {
-    public static function make(string $message = 'Важное уведомление', string $type = 'info') : void
+    public static function make(string $message = 'Important notification', string $type = 'info') : void
     {
         // Banner notifications are typically more prominent
         // Using the standard alert method with the specified type

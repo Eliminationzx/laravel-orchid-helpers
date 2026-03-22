@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class WarningAlert
 {
-    public static function make(string $message = 'Внимание!') : void
+    public static function make(string $message = 'Warning!') : void
     {
         Alert::warning(__($message));
     }

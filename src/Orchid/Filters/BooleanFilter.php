@@ -13,8 +13,8 @@ class BooleanFilter extends Filter
 {
     public function __construct(
         readonly private string $field,
-        readonly private string $false = 'Нет',
-        readonly private string $true = 'Да',
+        readonly private string $false = 'No',
+        readonly private string $true = 'Yes',
     )
     {
         parent::__construct();
@@ -64,7 +64,7 @@ class BooleanFilter extends Filter
         return [
             RadioButtons::make($this->field)
                 ->options([
-                    null => 'Все',
+                    null => 'All',
                     0    => $this->false,
                     1    => $this->true,
                 ])

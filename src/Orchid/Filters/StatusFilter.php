@@ -16,7 +16,7 @@ class StatusFilter extends Filter
     public function __construct(
         readonly private string $field = 'status',
         array $options = [],
-        readonly private ?string $placeholder = 'Выберите статус',
+        readonly private ?string $placeholder = 'Select status',
     )
     {
         parent::__construct();
@@ -24,11 +24,11 @@ class StatusFilter extends Filter
         // Set default options if none provided
         if (empty($options)) {
             $options = [
-                'active' => 'Активный',
-                'inactive' => 'Неактивный',
-                'draft' => 'Черновик',
-                'published' => 'Опубликован',
-                'archived' => 'В архиве',
+                'active' => 'Active',
+                'inactive' => 'Inactive',
+                'draft' => 'Draft',
+                'published' => 'Published',
+                'archived' => 'Archived',
             ];
         }
 

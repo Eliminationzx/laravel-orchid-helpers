@@ -8,11 +8,11 @@ use Orchid\Support\Facades\Alert;
 
 class SystemAlert
 {
-    public static function make(string $message = 'Системное уведомление', string $code = null, string $type = 'warning') : void
+    public static function make(string $message = 'System notification', string $code = null, string $type = 'warning') : void
     {
         $systemMessage = $code 
-            ? __('[Система] :message (код: :code)', ['message' => $message, 'code' => $code])
-            : __('[Система] :message', ['message' => $message]);
+            ? __('[System] :message (code: :code)', ['message' => $message, 'code' => $code])
+            : __('[System] :message', ['message' => $message]);
         
         switch ($type) {
             case 'success':

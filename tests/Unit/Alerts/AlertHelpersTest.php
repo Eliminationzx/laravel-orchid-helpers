@@ -31,7 +31,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('success')
             ->once()
-            ->with('Операция выполнена успешно!');
+            ->with('Operation completed successfully!');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\SuccessAlert::make();
         
@@ -55,7 +55,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('error')
             ->once()
-            ->with('Произошла ошибка!');
+            ->with('An error occurred!');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\ErrorAlert::make();
         
@@ -79,7 +79,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('warning')
             ->once()
-            ->with('Внимание!');
+            ->with('Warning!');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\WarningAlert::make();
         
@@ -103,7 +103,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('info')
             ->once()
-            ->with('Информация');
+            ->with('Information');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\InfoAlert::make();
         
@@ -163,7 +163,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('error')
             ->once()
-            ->with('Поле email: Test validation error');
+            ->with('Field email: Test validation error');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\InlineAlert::make('Test validation error', 'email');
         
@@ -278,7 +278,7 @@ class AlertHelpersTest extends TestCase
     {
         Alert::shouldReceive('warning')
             ->once()
-            ->with('[Система] System error (код: ERR-001)');
+            ->with('[System] System error (code: ERR-001)');
         
         \OrchidHelpers\Orchid\Helpers\Alerts\SystemAlert::make('System error', 'ERR-001');
         

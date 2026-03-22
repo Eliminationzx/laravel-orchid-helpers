@@ -70,12 +70,12 @@ class NumberRangeFilter extends Filter
     {
         $minField = Input::make("{$this->field}_min")
             ->type('number')
-            ->title($this->name() . ' (от)')
+            ->title($this->name() . ' (from)')
             ->value($this->request->input("{$this->field}_min"));
 
         $maxField = Input::make("{$this->field}_max")
             ->type('number')
-            ->title($this->name() . ' (до)')
+            ->title($this->name() . ' (to)')
             ->value($this->request->input("{$this->field}_max"));
 
         if ($this->min !== null) {

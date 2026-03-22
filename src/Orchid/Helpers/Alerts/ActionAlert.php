@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class ActionAlert
 {
-    public static function make(string $message = 'Уведомление', string $actionText = 'Действие', string $actionUrl = '#', string $type = 'info') : void
+    public static function make(string $message = 'Notification', string $actionText = 'Action', string $actionUrl = '#', string $type = 'info') : void
     {
         // Add action indicator to the message
         $actionMessage = __($message) . ' ' . __('[:action]', ['action' => $actionText]);

@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class InfoAlert
 {
-    public static function make(string $message = 'Информация') : void
+    public static function make(string $message = 'Information') : void
     {
         Alert::info(__($message));
     }

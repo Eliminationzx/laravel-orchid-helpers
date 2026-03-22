@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class ToastAlert
 {
-    public static function make(string $message = 'Уведомление', string $type = 'success') : void
+    public static function make(string $message = 'Notification', string $type = 'success') : void
     {
         Alert::toast(__($message), $type);
     }

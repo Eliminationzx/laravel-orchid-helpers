@@ -21,7 +21,7 @@ class TextFieldTest extends TestCase
     {
         // Mock translation
         $this->app['translator']->addLines([
-            'validation.attributes.model.description' => 'Описание',
+            'validation.attributes.model.description' => 'Description',
         ], 'ru');
         
         // Set locale to Russian
@@ -29,6 +29,6 @@ class TextFieldTest extends TestCase
         
         $field = TextField::make('description');
         
-        $this->assertEquals('Описание', $field->get('title'));
+        $this->assertEquals('Description', $field->get('title'));
     }
 }

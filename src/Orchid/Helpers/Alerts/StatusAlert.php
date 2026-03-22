@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class StatusAlert
 {
-    public static function make(string $message = 'Статус изменен', string $oldStatus = null, string $newStatus = null) : void
+    public static function make(string $message = 'Status changed', string $oldStatus = null, string $newStatus = null) : void
     {
         if ($oldStatus && $newStatus) {
             $statusMessage = __($message) . ': ' . __(':old → :new', [

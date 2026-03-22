@@ -55,7 +55,7 @@ class IdFilter extends Filter
     {
         return [
             Input::make('ids')
-                ->help('Список ID через запятую')
+                ->help('Comma-separated list of IDs')
                 ->value($this->getData()->implode(',')),
         ];
     }

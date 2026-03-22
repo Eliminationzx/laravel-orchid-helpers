@@ -12,9 +12,9 @@ class DeleteLink
 {
     public static function make(array $attributes, string $method = 'destroy') : Button
     {
-        return Button::make('Удалить')
+        return Button::make('Delete')
             ->type(Color::DANGER())
-            ->confirm('Вы действительно хотите удалить текущую запись?')
+            ->confirm('Are you sure you want to delete the current record?')
             ->method($method, $attributes)
             ->icon('bs.trash2');
     }

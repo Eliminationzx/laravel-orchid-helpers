@@ -8,7 +8,7 @@ use Orchid\Support\Facades\Alert;
 
 class ProgressAlert
 {
-    public static function make(string $message = 'Выполняется...', int $progress = 0) : void
+    public static function make(string $message = 'Processing...', int $progress = 0) : void
     {
         // Show an info alert with progress indication
         $progressMessage = $progress > 0 
@@ -18,7 +18,7 @@ class ProgressAlert
         Alert::info($progressMessage);
     }
     
-    public static function complete(string $message = 'Завершено!') : void
+    public static function complete(string $message = 'Completed!') : void
     {
         Alert::success(__($message));
     }
