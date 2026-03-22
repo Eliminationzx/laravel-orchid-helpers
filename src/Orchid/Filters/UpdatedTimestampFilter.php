@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Filters;
+namespace OrchidHelpers\Orchid\Filters;
 
 class UpdatedTimestampFilter extends TimestampFilter
 {

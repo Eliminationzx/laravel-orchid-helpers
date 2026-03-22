@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Layouts;
+namespace OrchidHelpers\Orchid\Helpers\Layouts;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

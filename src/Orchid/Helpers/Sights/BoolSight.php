@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Sights;
+namespace OrchidHelpers\Orchid\Helpers\Sights;
 
-use Manzadey\LaravelOrchidHelpers\View\Components\Platform\BoolComponent;
+use OrchidHelpers\View\Components\Platform\BoolComponent;
 use Orchid\Screen\Sight;
 
 class BoolSight

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Fields;
+namespace OrchidHelpers\Orchid\Helpers\Fields;
 
 use Orchid\Screen\Fields\CheckBox;
 

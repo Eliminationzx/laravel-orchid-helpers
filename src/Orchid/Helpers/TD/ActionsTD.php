@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD;
+namespace OrchidHelpers\Orchid\Helpers\TD;
 
 use Closure;
 use Orchid\Screen\TD;

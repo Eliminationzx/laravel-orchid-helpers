@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Screens;
+namespace OrchidHelpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Model;
 

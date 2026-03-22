@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Filters;
+namespace OrchidHelpers\Orchid\Filters;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;

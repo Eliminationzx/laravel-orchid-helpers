@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Services;
+namespace OrchidHelpers\Services;
 
 use Orchid\Platform\ItemPermission;
 use RuntimeException;

@@ -1,5 +1,5 @@
 {
-  "name": "manzadey/laravel-orchid-helpers",
+  "name": "eliminationzx/laravel-orchid-helpers",
   "description": "Laravel Orchid helpers package providing reusable components for Orchid Platform",
   "type": "library",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Manzadey\\LaravelOrchidHelpers\\": "src/"
+      "OrchidHelpers\\": "src/"
     },
     "files": [
       "src/Support/helpers.php"
@@ -31,8 +31,8 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Manzadey\\LaravelOrchidHelpers\\Providers\\FoundationServiceProvider",
-        "Manzadey\\LaravelOrchidHelpers\\Providers\\MacrosServiceProvider"
+        "OrchidHelpers\\Providers\\FoundationServiceProvider",
+        "OrchidHelpers\\Providers\\MacrosServiceProvider"
       ]
     }
   },

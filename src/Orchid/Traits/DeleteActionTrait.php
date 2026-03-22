@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Traits;
+namespace OrchidHelpers\Orchid\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
-use Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Alerts\DestroyAlert;
+use OrchidHelpers\Orchid\Helpers\Alerts\DestroyAlert;
 
 /**
  * @mixin \Orchid\Screen\Screen

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Alerts;
+namespace OrchidHelpers\Orchid\Helpers\Alerts;
 
 use Orchid\Support\Facades\Alert;
 

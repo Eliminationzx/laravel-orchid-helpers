@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Links;
+namespace OrchidHelpers\Orchid\Helpers\Links;
 
 use Illuminate\Database\Eloquent\Model;
 use Orchid\Screen\Actions\Link;
@@ -11,7 +11,7 @@ class ShowLink
 {
     public static function make() : Link
     {
-        return Link::make(__('Подробнее'))
+        return Link::make(__('View'))
             ->icon('bs.eye');
     }
 

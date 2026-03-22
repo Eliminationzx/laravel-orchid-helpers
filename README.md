@@ -1,8 +1,8 @@
 # Laravel Orchid Helpers
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/manzadey/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/manzadey/laravel-orchid-helpers)
-[![PHP Version](https://img.shields.io/packagist/php-v/manzadey/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/manzadey/laravel-orchid-helpers)
-[![License](https://img.shields.io/packagist/l/manzadey/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/manzadey/laravel-orchid-helpers)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/eliminationzx/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/eliminationzx/laravel-orchid-helpers)
+[![PHP Version](https://img.shields.io/packagist/php-v/eliminationzx/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/eliminationzx/laravel-orchid-helpers)
+[![License](https://img.shields.io/packagist/l/eliminationzx/laravel-orchid-helpers.svg?style=flat-square)](https://packagist.org/packages/eliminationzx/laravel-orchid-helpers)
 
 A comprehensive collection of helpers, components, and utilities for Laravel Orchid Platform that accelerates admin panel development.
 
@@ -24,7 +24,7 @@ A comprehensive collection of helpers, components, and utilities for Laravel Orc
 You can install the package via Composer:
 
 ```bash
-composer require manzadey/laravel-orchid-helpers
+composer require eliminationzx/laravel-orchid-helpers
 ```
 
 The package will automatically register its service providers.

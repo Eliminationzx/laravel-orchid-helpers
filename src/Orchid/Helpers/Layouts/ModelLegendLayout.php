@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Layouts;
+namespace OrchidHelpers\Orchid\Helpers\Layouts;
 
 use Orchid\Screen\Layouts\Legend;
 use Orchid\Support\Facades\Layout;

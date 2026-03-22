@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\TD;
+namespace OrchidHelpers\Orchid\Helpers\TD;
 
 use Illuminate\Database\Eloquent\Model;
-use Manzadey\LaravelOrchidHelpers\View\Components\Platform\BoolComponent;
+use OrchidHelpers\View\Components\Platform\BoolComponent;
 use Orchid\Screen\Repository;
 use Orchid\Screen\TD;
 use Orchid\Support\Blade;

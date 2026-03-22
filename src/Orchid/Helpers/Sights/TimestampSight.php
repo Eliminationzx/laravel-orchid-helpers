@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Orchid\Helpers\Sights;
+namespace OrchidHelpers\Orchid\Helpers\Sights;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

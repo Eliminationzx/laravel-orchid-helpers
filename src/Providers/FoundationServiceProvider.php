@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\Providers;
+namespace OrchidHelpers\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

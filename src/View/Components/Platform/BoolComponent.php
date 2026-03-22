@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Manzadey\LaravelOrchidHelpers\View\Components\Platform;
+namespace OrchidHelpers\View\Components\Platform;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
