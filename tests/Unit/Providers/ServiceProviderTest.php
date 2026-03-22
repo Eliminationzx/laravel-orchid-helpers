@@ -3,7 +3,6 @@
 namespace Orchid\Helpers\Tests\Unit\Providers;
 
 use Orchid\Helpers\Providers\FoundationServiceProvider;
-use Orchid\Helpers\Providers\MacrosServiceProvider;
 use Orchid\Helpers\Providers\ComponentServiceProvider;
 use Orchid\Helpers\Providers\ViewServiceProvider;
 use Orchid\Helpers\Providers\RouteServiceProvider;
@@ -37,19 +36,6 @@ class ServiceProviderTest extends TestCase
         $provider = new FoundationServiceProvider($this->app);
         
         $this->assertInstanceOf(FoundationServiceProvider::class, $provider);
-        
-        // Test that the provider can be booted without errors
-        $provider->boot();
-        
-        // Test that the provider can be registered without errors
-        $provider->register();
-    }
-    
-    public function test_macros_service_provider_registers_correctly()
-    {
-        $provider = new MacrosServiceProvider($this->app);
-        
-        $this->assertInstanceOf(MacrosServiceProvider::class, $provider);
         
         // Test that the provider can be booted without errors
         $provider->boot();
@@ -302,10 +288,6 @@ class ServiceProviderTest extends TestCase
     {
         // The TestCase should already register the providers
         $providers = $this->app->getProviders(FoundationServiceProvider::class);
-        
-        $this->assertNotEmpty($providers);
-        
-        $providers = $this->app->getProviders(MacrosServiceProvider::class);
         
         $this->assertNotEmpty($providers);
     }

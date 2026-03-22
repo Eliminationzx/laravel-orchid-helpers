@@ -4,7 +4,6 @@ namespace Orchid\Helpers\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Orchid\Helpers\Providers\FoundationServiceProvider;
-use Orchid\Helpers\Providers\MacrosServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase
 {
@@ -18,7 +17,6 @@ abstract class TestCase extends OrchestraTestCase
     {
         return [
             FoundationServiceProvider::class,
-            MacrosServiceProvider::class,
         ];
     }
 
