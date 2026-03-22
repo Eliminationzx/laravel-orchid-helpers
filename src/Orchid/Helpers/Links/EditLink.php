@@ -15,7 +15,10 @@ class EditLink
             ->icon('bs.wrench');
     }
 
-    public static function route(string $name, $parameters = []) : Link
+    /**
+     * @param  array<string, mixed>|Model  $parameters
+     */
+    public static function route(string $name, array|Model $parameters = []) : Link
     {
         return self::make()
             ->route($name, $parameters)

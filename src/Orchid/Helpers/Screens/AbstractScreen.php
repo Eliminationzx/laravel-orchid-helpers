@@ -16,6 +16,7 @@ abstract class AbstractScreen extends BaseScreen
     /**
      * @throws \Throwable
      */
+    #[\Override]
     public function name() : ?string
     {
         return Breadcrumbs::current()->last()?->title();
