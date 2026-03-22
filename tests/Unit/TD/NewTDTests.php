@@ -1,0 +1,99 @@
+<?php
+
+namespace OrchidHelpers\Tests\Unit\TD;
+
+use OrchidHelpers\Orchid\Helpers\TD\EmailTD;
+use OrchidHelpers\Orchid\Helpers\TD\PhoneTD;
+use OrchidHelpers\Orchid\Helpers\TD\CurrencyTD;
+use OrchidHelpers\Orchid\Helpers\TD\PercentageTD;
+use OrchidHelpers\Orchid\Helpers\TD\BadgeTD;
+use OrchidHelpers\Orchid\Helpers\TD\ImageTD;
+use OrchidHelpers\Orchid\Helpers\TD\DateTD;
+use OrchidHelpers\Orchid\Helpers\TD\DateTimeTD;
+use OrchidHelpers\Orchid\Helpers\TD\TruncatedTextTD;
+use OrchidHelpers\Orchid\Helpers\TD\JsonTD;
+use Orchid\Screen\Repository;
+use OrchidHelpers\Tests\TestCase;
+
+class NewTDTests extends TestCase
+{
+    /** @test */
+    public function test_email_td_creates_td_instance()
+    {
+        $td = EmailTD::make('email', 'Email Address');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_phone_td_creates_td_instance()
+    {
+        $td = PhoneTD::make('phone', 'Phone Number');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_currency_td_creates_td_instance()
+    {
+        $td = CurrencyTD::make('price', 'Price');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_percentage_td_creates_td_instance()
+    {
+        $td = PercentageTD::make('discount', 'Discount');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_badge_td_creates_td_instance()
+    {
+        $td = BadgeTD::make('status', 'Status');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_image_td_creates_td_instance()
+    {
+        $td = ImageTD::make('avatar', 'Avatar');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_date_td_creates_td_instance()
+    {
+        $td = DateTD::make('created_at', 'Created At');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_date_time_td_creates_td_instance()
+    {
+        $td = DateTimeTD::make('updated_at', 'Updated At');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_truncated_text_td_creates_td_instance()
+    {
+        $td = TruncatedTextTD::make('description', 'Description');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+    
+    /** @test */
+    public function test_json_td_creates_td_instance()
+    {
+        $td = JsonTD::make('metadata', 'Metadata');
+        
+        $this->assertInstanceOf(\Orchid\Screen\TD::class, $td);
+    }
+}

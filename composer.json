@@ -38,7 +38,31 @@
     "laravel": {
       "providers": [
         "OrchidHelpers\\Providers\\FoundationServiceProvider",
-        "OrchidHelpers\\Providers\\MacrosServiceProvider"
+        "OrchidHelpers\\Providers\\MacrosServiceProvider",
+        "OrchidHelpers\\Providers\\ComponentServiceProvider",
+        "OrchidHelpers\\Providers\\ViewServiceProvider",
+        "OrchidHelpers\\Providers\\RouteServiceProvider",
+        "OrchidHelpers\\Providers\\EventServiceProvider",
+        "OrchidHelpers\\Providers\\CommandServiceProvider",
+        "OrchidHelpers\\Providers\\MigrationServiceProvider",
+        "OrchidHelpers\\Providers\\ValidationServiceProvider",
+        "OrchidHelpers\\Providers\\HelperServiceProvider",
+        "OrchidHelpers\\Providers\\ConfigServiceProvider",
+        "OrchidHelpers\\Providers\\MiddlewareServiceProvider",
+        "OrchidHelpers\\Providers\\PolicyServiceProvider",
+        "OrchidHelpers\\Providers\\RepositoryServiceProvider",
+        "OrchidHelpers\\Providers\\ServiceServiceProvider",
+        "OrchidHelpers\\Providers\\FacadeServiceProvider",
+        "OrchidHelpers\\Providers\\CacheServiceProvider",
+        "OrchidHelpers\\Providers\\QueueServiceProvider",
+        "OrchidHelpers\\Providers\\MailServiceProvider",
+        "OrchidHelpers\\Providers\\NotificationServiceProvider",
+        "OrchidHelpers\\Providers\\BroadcastServiceProvider",
+        "OrchidHelpers\\Providers\\AuthServiceProvider",
+        "OrchidHelpers\\Providers\\DatabaseServiceProvider",
+        "OrchidHelpers\\Providers\\FilesystemServiceProvider",
+        "OrchidHelpers\\Providers\\SessionServiceProvider",
+        "OrchidHelpers\\Providers\\TranslationServiceProvider"
       ]
     }
   },
