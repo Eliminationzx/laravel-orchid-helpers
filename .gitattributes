@@ -1,2 +1,49 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ensure shell scripts are executable
+*.sh text eol=lf
+
+# Export-ignore rules for Composer distribution
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/composer.lock export-ignore
+/phpunit.xml export-ignore
+/phpunit.xml.dist export-ignore
+/.php-cs-fixer.php export-ignore
+/.php-cs-fixer.dist.php export-ignore
+/.phpstan.neon export-ignore
+/.phpstan.neon.dist export-ignore
+/.editorconfig export-ignore
+/.github export-ignore
+/.vscode export-ignore
+/.idea export-ignore
+/tests export-ignore
+/docs export-ignore
+/plans export-ignore
+
+# Ensure proper line endings for specific file types
+*.php text
+*.js text
+*.css text
+*.txt text
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.dist text
+*.sql text
+
+# Binary files should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.svg binary
