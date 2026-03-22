@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Traits;
+namespace Orchid\Helpers\Orchid\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
-use OrchidHelpers\Orchid\Helpers\Alerts\DestroyAlert;
+use Orchid\\Helpers\\Orchid\Helpers\Alerts\DestroyAlert;
 
 /**
  * @mixin \Orchid\Screen\Screen

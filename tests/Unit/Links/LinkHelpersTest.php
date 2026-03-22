@@ -1,21 +1,21 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Links;
+namespace Orchid\Helpers\Tests\Unit\Links;
 
-use OrchidHelpers\Orchid\Helpers\Links\BackLink;
-use OrchidHelpers\Orchid\Helpers\Links\HomeLink;
-use OrchidHelpers\Orchid\Helpers\Links\ExternalLink;
-use OrchidHelpers\Orchid\Helpers\Links\DownloadLink;
-use OrchidHelpers\Orchid\Helpers\Links\PrintLink;
-use OrchidHelpers\Orchid\Helpers\Links\RefreshLink;
-use OrchidHelpers\Orchid\Helpers\Links\CopyLink;
-use OrchidHelpers\Orchid\Helpers\Links\ShareLink;
-use OrchidHelpers\Orchid\Helpers\Links\BreadcrumbLink;
-use OrchidHelpers\Orchid\Helpers\Links\PaginationLink;
-use OrchidHelpers\Orchid\Helpers\Links\SortLink;
-use OrchidHelpers\Orchid\Helpers\Links\FilterLink;
-use OrchidHelpers\Orchid\Helpers\Links\ModalLink;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Helpers\Links\BackLink;
+use Orchid\Helpers\Orchid\Helpers\Links\HomeLink;
+use Orchid\Helpers\Orchid\Helpers\Links\ExternalLink;
+use Orchid\Helpers\Orchid\Helpers\Links\DownloadLink;
+use Orchid\Helpers\Orchid\Helpers\Links\PrintLink;
+use Orchid\Helpers\Orchid\Helpers\Links\RefreshLink;
+use Orchid\Helpers\Orchid\Helpers\Links\CopyLink;
+use Orchid\Helpers\Orchid\Helpers\Links\ShareLink;
+use Orchid\Helpers\Orchid\Helpers\Links\BreadcrumbLink;
+use Orchid\Helpers\Orchid\Helpers\Links\PaginationLink;
+use Orchid\Helpers\Orchid\Helpers\Links\SortLink;
+use Orchid\Helpers\Orchid\Helpers\Links\FilterLink;
+use Orchid\Helpers\Orchid\Helpers\Links\ModalLink;
+use Orchid\Helpers\Tests\TestCase;
 
 class LinkHelpersTest extends TestCase
 {

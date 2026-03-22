@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Services;
+namespace Orchid\Helpers\Services;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;

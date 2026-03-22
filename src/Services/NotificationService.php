@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Services;
+namespace Orchid\Helpers\Services;
 
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Notification as NotificationFacade;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\TD;
+namespace Orchid\Helpers\Orchid\Helpers\TD;
 
 use Closure;
 use Orchid\Screen\TD;

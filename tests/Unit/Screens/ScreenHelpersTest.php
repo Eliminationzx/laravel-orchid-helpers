@@ -1,19 +1,19 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Screens;
+namespace Orchid\Helpers\Tests\Unit\Screens;
 
-use OrchidHelpers\Orchid\Helpers\Screens\AbstractScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\ListScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\CreateScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\UpdateScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\DeleteScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\ImportScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\ExportScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\BulkActionScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\SearchScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\ReportScreen;
-use OrchidHelpers\Orchid\Helpers\Screens\DashboardScreen;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Helpers\Screens\AbstractScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\ListScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\CreateScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\UpdateScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\DeleteScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\ImportScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\ExportScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\BulkActionScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\SearchScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\ReportScreen;
+use Orchid\Helpers\Orchid\Helpers\Screens\DashboardScreen;
+use Orchid\Helpers\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Mockery;

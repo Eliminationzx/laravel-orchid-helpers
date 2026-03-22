@@ -1,19 +1,19 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\TD;
+namespace Orchid\Helpers\Tests\Unit\TD;
 
-use OrchidHelpers\Orchid\Helpers\TD\EmailTD;
-use OrchidHelpers\Orchid\Helpers\TD\PhoneTD;
-use OrchidHelpers\Orchid\Helpers\TD\CurrencyTD;
-use OrchidHelpers\Orchid\Helpers\TD\PercentageTD;
-use OrchidHelpers\Orchid\Helpers\TD\BadgeTD;
-use OrchidHelpers\Orchid\Helpers\TD\ImageTD;
-use OrchidHelpers\Orchid\Helpers\TD\DateTD;
-use OrchidHelpers\Orchid\Helpers\TD\DateTimeTD;
-use OrchidHelpers\Orchid\Helpers\TD\TruncatedTextTD;
-use OrchidHelpers\Orchid\Helpers\TD\JsonTD;
+use Orchid\Helpers\Orchid\Helpers\TD\EmailTD;
+use Orchid\Helpers\Orchid\Helpers\TD\PhoneTD;
+use Orchid\Helpers\Orchid\Helpers\TD\CurrencyTD;
+use Orchid\Helpers\Orchid\Helpers\TD\PercentageTD;
+use Orchid\Helpers\Orchid\Helpers\TD\BadgeTD;
+use Orchid\Helpers\Orchid\Helpers\TD\ImageTD;
+use Orchid\Helpers\Orchid\Helpers\TD\DateTD;
+use Orchid\Helpers\Orchid\Helpers\TD\DateTimeTD;
+use Orchid\Helpers\Orchid\Helpers\TD\TruncatedTextTD;
+use Orchid\Helpers\Orchid\Helpers\TD\JsonTD;
 use Orchid\Screen\Repository;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Tests\TestCase;
 
 class NewTDTests extends TestCase
 {

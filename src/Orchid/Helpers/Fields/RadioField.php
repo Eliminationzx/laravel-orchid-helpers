@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Fields;
+namespace Orchid\Helpers\Orchid\Helpers\Fields;
 
 use Orchid\Screen\Fields\Radio;
 

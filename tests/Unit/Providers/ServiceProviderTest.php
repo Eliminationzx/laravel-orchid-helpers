@@ -1,34 +1,34 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Providers;
+namespace Orchid\Helpers\Tests\Unit\Providers;
 
-use OrchidHelpers\Providers\FoundationServiceProvider;
-use OrchidHelpers\Providers\MacrosServiceProvider;
-use OrchidHelpers\Providers\ComponentServiceProvider;
-use OrchidHelpers\Providers\ViewServiceProvider;
-use OrchidHelpers\Providers\RouteServiceProvider;
-use OrchidHelpers\Providers\EventServiceProvider;
-use OrchidHelpers\Providers\CommandServiceProvider;
-use OrchidHelpers\Providers\MigrationServiceProvider;
-use OrchidHelpers\Providers\ValidationServiceProvider;
-use OrchidHelpers\Providers\HelperServiceProvider;
-use OrchidHelpers\Providers\ConfigServiceProvider;
-use OrchidHelpers\Providers\MiddlewareServiceProvider;
-use OrchidHelpers\Providers\PolicyServiceProvider;
-use OrchidHelpers\Providers\RepositoryServiceProvider;
-use OrchidHelpers\Providers\ServiceServiceProvider;
-use OrchidHelpers\Providers\FacadeServiceProvider;
-use OrchidHelpers\Providers\CacheServiceProvider;
-use OrchidHelpers\Providers\QueueServiceProvider;
-use OrchidHelpers\Providers\MailServiceProvider;
-use OrchidHelpers\Providers\NotificationServiceProvider;
-use OrchidHelpers\Providers\BroadcastServiceProvider;
-use OrchidHelpers\Providers\AuthServiceProvider;
-use OrchidHelpers\Providers\DatabaseServiceProvider;
-use OrchidHelpers\Providers\FilesystemServiceProvider;
-use OrchidHelpers\Providers\SessionServiceProvider;
-use OrchidHelpers\Providers\TranslationServiceProvider;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Providers\FoundationServiceProvider;
+use Orchid\Helpers\Providers\MacrosServiceProvider;
+use Orchid\Helpers\Providers\ComponentServiceProvider;
+use Orchid\Helpers\Providers\ViewServiceProvider;
+use Orchid\Helpers\Providers\RouteServiceProvider;
+use Orchid\Helpers\Providers\EventServiceProvider;
+use Orchid\Helpers\Providers\CommandServiceProvider;
+use Orchid\Helpers\Providers\MigrationServiceProvider;
+use Orchid\Helpers\Providers\ValidationServiceProvider;
+use Orchid\Helpers\Providers\HelperServiceProvider;
+use Orchid\Helpers\Providers\ConfigServiceProvider;
+use Orchid\Helpers\Providers\MiddlewareServiceProvider;
+use Orchid\Helpers\Providers\PolicyServiceProvider;
+use Orchid\Helpers\Providers\RepositoryServiceProvider;
+use Orchid\Helpers\Providers\ServiceServiceProvider;
+use Orchid\Helpers\Providers\FacadeServiceProvider;
+use Orchid\Helpers\Providers\CacheServiceProvider;
+use Orchid\Helpers\Providers\QueueServiceProvider;
+use Orchid\Helpers\Providers\MailServiceProvider;
+use Orchid\Helpers\Providers\NotificationServiceProvider;
+use Orchid\Helpers\Providers\BroadcastServiceProvider;
+use Orchid\Helpers\Providers\AuthServiceProvider;
+use Orchid\Helpers\Providers\DatabaseServiceProvider;
+use Orchid\Helpers\Providers\FilesystemServiceProvider;
+use Orchid\Helpers\Providers\SessionServiceProvider;
+use Orchid\Helpers\Providers\TranslationServiceProvider;
+use Orchid\Helpers\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {

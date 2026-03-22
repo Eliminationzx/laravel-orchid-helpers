@@ -1,12 +1,12 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Traits;
+namespace Orchid\Helpers\Tests\Unit\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
-use OrchidHelpers\Orchid\Traits\FilterableTrait;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Traits\FilterableTrait;
+use Orchid\Helpers\Tests\TestCase;
 
 class FilterableTraitTest extends TestCase
 {

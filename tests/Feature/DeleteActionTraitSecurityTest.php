@@ -1,13 +1,13 @@
 <?php
 
-namespace OrchidHelpers\Tests\Feature;
+namespace Orchid\Helpers\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use OrchidHelpers\Orchid\Traits\DeleteActionTrait;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Traits\DeleteActionTrait;
+use Orchid\Helpers\Tests\TestCase;
 
 class DeleteActionTraitSecurityTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Links;
+namespace Orchid\Helpers\Orchid\Helpers\Links;
 
 use Orchid\Screen\Actions\Link;
 

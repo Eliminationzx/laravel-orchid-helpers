@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\View\Components\Platform;
+namespace Orchid\Helpers\View\Components\Platform;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Sights;
+namespace Orchid\Helpers\Orchid\Helpers\Sights;
 
 use Illuminate\Database\Eloquent\Model;
 use Orchid\Screen\Repository;

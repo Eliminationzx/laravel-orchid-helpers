@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Alerts;
+namespace Orchid\Helpers\Orchid\Helpers\Alerts;
 
 use Orchid\Support\Facades\Alert;
 

@@ -1,29 +1,29 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Sights;
+namespace Orchid\Helpers\Tests\Unit\Sights;
 
-use OrchidHelpers\Orchid\Helpers\Sights\TextSight;
-use OrchidHelpers\Orchid\Helpers\Sights\EmailSight;
-use OrchidHelpers\Orchid\Helpers\Sights\PhoneSight;
-use OrchidHelpers\Orchid\Helpers\Sights\UrlSight;
-use OrchidHelpers\Orchid\Helpers\Sights\ImageSight;
-use OrchidHelpers\Orchid\Helpers\Sights\AvatarSight;
-use OrchidHelpers\Orchid\Helpers\Sights\BadgeSight;
-use OrchidHelpers\Orchid\Helpers\Sights\ProgressSight;
-use OrchidHelpers\Orchid\Helpers\Sights\RatingSight;
-use OrchidHelpers\Orchid\Helpers\Sights\CurrencySight;
-use OrchidHelpers\Orchid\Helpers\Sights\PercentageSight;
-use OrchidHelpers\Orchid\Helpers\Sights\DateSight;
-use OrchidHelpers\Orchid\Helpers\Sights\DateTimeSight;
-use OrchidHelpers\Orchid\Helpers\Sights\JsonSight;
-use OrchidHelpers\Orchid\Helpers\Sights\CodeSight;
-use OrchidHelpers\Orchid\Helpers\Sights\MarkdownSight;
-use OrchidHelpers\Orchid\Helpers\Sights\HtmlSight;
-use OrchidHelpers\Orchid\Helpers\Sights\FileSizeSight;
-use OrchidHelpers\Orchid\Helpers\Sights\DurationSight;
-use OrchidHelpers\Orchid\Helpers\Sights\CountSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\TextSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\EmailSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\PhoneSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\UrlSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\ImageSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\AvatarSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\BadgeSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\ProgressSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\RatingSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\CurrencySight;
+use Orchid\Helpers\Orchid\Helpers\Sights\PercentageSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\DateSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\DateTimeSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\JsonSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\CodeSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\MarkdownSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\HtmlSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\FileSizeSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\DurationSight;
+use Orchid\Helpers\Orchid\Helpers\Sights\CountSight;
 use Orchid\Screen\Repository;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Tests\TestCase;
 
 class NewSightTests extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit;
+namespace Orchid\Helpers\Tests\Unit;
 
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Tests\TestCase;
 
 class HelpersTest extends TestCase
 {

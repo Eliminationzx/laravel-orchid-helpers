@@ -1,9 +1,9 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Fields;
+namespace Orchid\Helpers\Tests\Unit\Fields;
 
-use OrchidHelpers\Orchid\Helpers\Fields\EmailField;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Helpers\Fields\EmailField;
+use Orchid\Helpers\Tests\TestCase;
 
 class EmailFieldTest extends TestCase
 {

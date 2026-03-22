@@ -1,8 +1,8 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Alerts;
+namespace Orchid\Helpers\Tests\Unit\Alerts;
 
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Tests\TestCase;
 use Orchid\Support\Facades\Alert;
 use Mockery;
 
@@ -21,7 +21,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test success message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\SuccessAlert::make('Test success message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\SuccessAlert::make('Test success message');
         
         $this->assertTrue(true); // Add assertion to avoid risky test
     }
@@ -33,7 +33,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Operation completed successfully!');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\SuccessAlert::make();
+        \Orchid\Helpers\Orchid\Helpers\Alerts\SuccessAlert::make();
         
         $this->assertTrue(true);
     }
@@ -45,7 +45,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test error message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ErrorAlert::make('Test error message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ErrorAlert::make('Test error message');
         
         $this->assertTrue(true);
     }
@@ -57,7 +57,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('An error occurred!');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ErrorAlert::make();
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ErrorAlert::make();
         
         $this->assertTrue(true);
     }
@@ -69,7 +69,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test warning message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\WarningAlert::make('Test warning message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\WarningAlert::make('Test warning message');
         
         $this->assertTrue(true);
     }
@@ -81,7 +81,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Warning!');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\WarningAlert::make();
+        \Orchid\Helpers\Orchid\Helpers\Alerts\WarningAlert::make();
         
         $this->assertTrue(true);
     }
@@ -93,7 +93,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test info message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\InfoAlert::make('Test info message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\InfoAlert::make('Test info message');
         
         $this->assertTrue(true);
     }
@@ -105,7 +105,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Information');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\InfoAlert::make();
+        \Orchid\Helpers\Orchid\Helpers\Alerts\InfoAlert::make();
         
         $this->assertTrue(true);
     }
@@ -117,7 +117,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test toast message', 'success');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ToastAlert::make('Test toast message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ToastAlert::make('Test toast message');
         
         $this->assertTrue(true);
     }
@@ -129,7 +129,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test toast message', 'error');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ToastAlert::make('Test toast message', 'error');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ToastAlert::make('Test toast message', 'error');
         
         $this->assertTrue(true);
     }
@@ -141,7 +141,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test banner message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\BannerAlert::make('Test banner message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\BannerAlert::make('Test banner message');
         
         $this->assertTrue(true);
     }
@@ -153,7 +153,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test banner message');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\BannerAlert::make('Test banner message', 'success');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\BannerAlert::make('Test banner message', 'success');
         
         $this->assertTrue(true);
     }
@@ -165,7 +165,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Field email: Test validation error');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\InlineAlert::make('Test validation error', 'email');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\InlineAlert::make('Test validation error', 'email');
         
         $this->assertTrue(true);
     }
@@ -177,7 +177,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Test validation error');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\InlineAlert::make('Test validation error');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\InlineAlert::make('Test validation error');
         
         $this->assertTrue(true);
     }
@@ -188,7 +188,7 @@ class AlertHelpersTest extends TestCase
         Alert::shouldReceive('warning')
             ->once();
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ConfirmationAlert::make('Are you sure?');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ConfirmationAlert::make('Are you sure?');
         
         $this->assertTrue(true);
     }
@@ -200,7 +200,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Processing... (50%)');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ProgressAlert::make('Processing...', 50);
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ProgressAlert::make('Processing...', 50);
         
         $this->assertTrue(true);
     }
@@ -212,7 +212,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Completed!');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ProgressAlert::complete('Completed!');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ProgressAlert::complete('Completed!');
         
         $this->assertTrue(true);
     }
@@ -223,7 +223,7 @@ class AlertHelpersTest extends TestCase
         Alert::shouldReceive('info')
             ->once();
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\TimedAlert::make('Test timed message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\TimedAlert::make('Test timed message');
         
         $this->assertTrue(true);
     }
@@ -234,7 +234,7 @@ class AlertHelpersTest extends TestCase
         Alert::shouldReceive('info')
             ->once();
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\DismissibleAlert::make('Test dismissible message');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\DismissibleAlert::make('Test dismissible message');
         
         $this->assertTrue(true);
     }
@@ -245,7 +245,7 @@ class AlertHelpersTest extends TestCase
         Alert::shouldReceive('info')
             ->once();
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\ActionAlert::make('Test action message', 'Click me', '#');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\ActionAlert::make('Test action message', 'Click me', '#');
         
         $this->assertTrue(true);
     }
@@ -257,7 +257,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('Status changed: draft → published');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\StatusAlert::make('Status changed', 'draft', 'published');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\StatusAlert::make('Status changed', 'draft', 'published');
         
         $this->assertTrue(true);
     }
@@ -268,7 +268,7 @@ class AlertHelpersTest extends TestCase
         Alert::shouldReceive('warning')
             ->once();
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\SystemAlert::make('System notification');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\SystemAlert::make('System notification');
         
         $this->assertTrue(true);
     }
@@ -280,7 +280,7 @@ class AlertHelpersTest extends TestCase
             ->once()
             ->with('[System] System error (code: ERR-001)');
         
-        \OrchidHelpers\Orchid\Helpers\Alerts\SystemAlert::make('System error', 'ERR-001');
+        \Orchid\Helpers\Orchid\Helpers\Alerts\SystemAlert::make('System error', 'ERR-001');
         
         $this->assertTrue(true);
     }

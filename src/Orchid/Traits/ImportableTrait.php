@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Traits;
+namespace Orchid\Helpers\Orchid\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;

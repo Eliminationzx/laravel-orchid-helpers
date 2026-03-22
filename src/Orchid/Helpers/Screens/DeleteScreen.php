@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
-use OrchidHelpers\Orchid\Helpers\Alerts\DestroyAlert;
-use OrchidHelpers\Orchid\Helpers\Layouts\ModalLayout;
+use Orchid\\Helpers\\Orchid\Helpers\Alerts\DestroyAlert;
+use Orchid\\Helpers\\Orchid\Helpers\Layouts\ModalLayout;
 
 abstract class DeleteScreen extends AbstractScreen
 {

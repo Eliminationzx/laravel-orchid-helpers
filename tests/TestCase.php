@@ -1,10 +1,10 @@
 <?php
 
-namespace OrchidHelpers\Tests;
+namespace Orchid\Helpers\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use OrchidHelpers\Providers\FoundationServiceProvider;
-use OrchidHelpers\Providers\MacrosServiceProvider;
+use Orchid\Helpers\Providers\FoundationServiceProvider;
+use Orchid\Helpers\Providers\MacrosServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase
 {

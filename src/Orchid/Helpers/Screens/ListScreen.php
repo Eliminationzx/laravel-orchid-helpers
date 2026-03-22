@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Builder;
 use Orchid\Screen\Layout;
-use OrchidHelpers\Orchid\Helpers\Layouts\ModelsTableLayout;
+use Orchid\\Helpers\\Orchid\Helpers\Layouts\ModelsTableLayout;
 
 abstract class ListScreen extends AbstractScreen
 {

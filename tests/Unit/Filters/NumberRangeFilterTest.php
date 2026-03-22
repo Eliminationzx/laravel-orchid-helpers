@@ -1,11 +1,11 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Filters;
+namespace Orchid\Helpers\Tests\Unit\Filters;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
-use OrchidHelpers\Orchid\Filters\NumberRangeFilter;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Filters\NumberRangeFilter;
+use Orchid\Helpers\Tests\TestCase;
 
 class NumberRangeFilterTest extends TestCase
 {

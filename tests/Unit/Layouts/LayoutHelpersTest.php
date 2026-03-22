@@ -1,18 +1,18 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Layouts;
+namespace Orchid\Helpers\Tests\Unit\Layouts;
 
-use OrchidHelpers\Orchid\Helpers\Layouts\CardLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\TabLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\AccordionLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\GridLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\FormLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\DashboardLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\EmptyStateLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\LoadingLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\ErrorLayout;
-use OrchidHelpers\Orchid\Helpers\Layouts\ModalLayout;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Helpers\Layouts\CardLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\TabLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\AccordionLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\GridLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\FormLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\DashboardLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\EmptyStateLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\LoadingLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\ErrorLayout;
+use Orchid\Helpers\Orchid\Helpers\Layouts\ModalLayout;
+use Orchid\Helpers\Tests\TestCase;
 
 class LayoutHelpersTest extends TestCase
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Support\Collection;
-use OrchidHelpers\Orchid\Helpers\Layouts\DashboardLayout;
+use Orchid\\Helpers\\Orchid\Helpers\Layouts\DashboardLayout;
 
 abstract class DashboardScreen extends AbstractScreen
 {

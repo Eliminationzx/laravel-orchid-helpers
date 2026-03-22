@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Traits;
+namespace Orchid\Helpers\Orchid\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;

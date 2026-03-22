@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "OrchidHelpers\\": "src/"
+      "Orchid\\Helpers\\": "src/"
     },
     "files": [
       "src/Support/helpers.php"
@@ -31,38 +31,38 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "OrchidHelpers\\Tests\\": "tests/"
+      "Orchid\\Helpers\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "OrchidHelpers\\Providers\\FoundationServiceProvider",
-        "OrchidHelpers\\Providers\\MacrosServiceProvider",
-        "OrchidHelpers\\Providers\\ComponentServiceProvider",
-        "OrchidHelpers\\Providers\\ViewServiceProvider",
-        "OrchidHelpers\\Providers\\RouteServiceProvider",
-        "OrchidHelpers\\Providers\\EventServiceProvider",
-        "OrchidHelpers\\Providers\\CommandServiceProvider",
-        "OrchidHelpers\\Providers\\MigrationServiceProvider",
-        "OrchidHelpers\\Providers\\ValidationServiceProvider",
-        "OrchidHelpers\\Providers\\HelperServiceProvider",
-        "OrchidHelpers\\Providers\\ConfigServiceProvider",
-        "OrchidHelpers\\Providers\\MiddlewareServiceProvider",
-        "OrchidHelpers\\Providers\\PolicyServiceProvider",
-        "OrchidHelpers\\Providers\\RepositoryServiceProvider",
-        "OrchidHelpers\\Providers\\ServiceServiceProvider",
-        "OrchidHelpers\\Providers\\FacadeServiceProvider",
-        "OrchidHelpers\\Providers\\CacheServiceProvider",
-        "OrchidHelpers\\Providers\\QueueServiceProvider",
-        "OrchidHelpers\\Providers\\MailServiceProvider",
-        "OrchidHelpers\\Providers\\NotificationServiceProvider",
-        "OrchidHelpers\\Providers\\BroadcastServiceProvider",
-        "OrchidHelpers\\Providers\\AuthServiceProvider",
-        "OrchidHelpers\\Providers\\DatabaseServiceProvider",
-        "OrchidHelpers\\Providers\\FilesystemServiceProvider",
-        "OrchidHelpers\\Providers\\SessionServiceProvider",
-        "OrchidHelpers\\Providers\\TranslationServiceProvider"
+        "Orchid\\Helpers\\Providers\\FoundationServiceProvider",
+        "Orchid\\Helpers\\Providers\\MacrosServiceProvider",
+        "Orchid\\Helpers\\Providers\\ComponentServiceProvider",
+        "Orchid\\Helpers\\Providers\\ViewServiceProvider",
+        "Orchid\\Helpers\\Providers\\RouteServiceProvider",
+        "Orchid\\Helpers\\Providers\\EventServiceProvider",
+        "Orchid\\Helpers\\Providers\\CommandServiceProvider",
+        "Orchid\\Helpers\\Providers\\MigrationServiceProvider",
+        "Orchid\\Helpers\\Providers\\ValidationServiceProvider",
+        "Orchid\\Helpers\\Providers\\HelperServiceProvider",
+        "Orchid\\Helpers\\Providers\\ConfigServiceProvider",
+        "Orchid\\Helpers\\Providers\\MiddlewareServiceProvider",
+        "Orchid\\Helpers\\Providers\\PolicyServiceProvider",
+        "Orchid\\Helpers\\Providers\\RepositoryServiceProvider",
+        "Orchid\\Helpers\\Providers\\ServiceServiceProvider",
+        "Orchid\\Helpers\\Providers\\FacadeServiceProvider",
+        "Orchid\\Helpers\\Providers\\CacheServiceProvider",
+        "Orchid\\Helpers\\Providers\\QueueServiceProvider",
+        "Orchid\\Helpers\\Providers\\MailServiceProvider",
+        "Orchid\\Helpers\\Providers\\NotificationServiceProvider",
+        "Orchid\\Helpers\\Providers\\BroadcastServiceProvider",
+        "Orchid\\Helpers\\Providers\\AuthServiceProvider",
+        "Orchid\\Helpers\\Providers\\DatabaseServiceProvider",
+        "Orchid\\Helpers\\Providers\\FilesystemServiceProvider",
+        "Orchid\\Helpers\\Providers\\SessionServiceProvider",
+        "Orchid\\Helpers\\Providers\\TranslationServiceProvider"
       ]
     }
   },

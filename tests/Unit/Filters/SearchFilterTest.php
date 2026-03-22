@@ -1,11 +1,11 @@
 <?php
 
-namespace OrchidHelpers\Tests\Unit\Filters;
+namespace Orchid\Helpers\Tests\Unit\Filters;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
-use OrchidHelpers\Orchid\Filters\SearchFilter;
-use OrchidHelpers\Tests\TestCase;
+use Orchid\Helpers\Orchid\Filters\SearchFilter;
+use Orchid\Helpers\Tests\TestCase;
 
 class SearchFilterTest extends TestCase
 {

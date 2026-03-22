@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
-use OrchidHelpers\Orchid\Helpers\Buttons\SaveButton;
+use Orchid\\Helpers\\Orchid\Helpers\Buttons\SaveButton;
 
 abstract class EditScreen extends ShowScreen
 {

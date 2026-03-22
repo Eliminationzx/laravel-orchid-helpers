@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Links;
+namespace Orchid\Helpers\Orchid\Helpers\Links;
 
 use Illuminate\Database\Eloquent\Model;
 use Orchid\Screen\Actions\Button;

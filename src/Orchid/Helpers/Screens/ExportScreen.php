@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use OrchidHelpers\Orchid\Helpers\Layouts\FormLayout;
+use Orchid\\Helpers\\Orchid\Helpers\Layouts\FormLayout;
 
 abstract class ExportScreen extends AbstractScreen
 {

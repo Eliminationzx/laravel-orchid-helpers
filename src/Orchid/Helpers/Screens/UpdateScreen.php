@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Screens;
+namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use OrchidHelpers\Orchid\Helpers\Alerts\SaveAlert;
+use Orchid\Helpers\Orchid\Helpers\Alerts\SaveAlert;
 
 abstract class UpdateScreen extends EditScreen
 {
@@ -101,7 +101,7 @@ abstract class UpdateScreen extends EditScreen
     public function layout(): iterable
     {
         return [
-            \OrchidHelpers\Orchid\Helpers\Layouts\FormLayout::make($this->fields()),
+            \Orchid\Helpers\Orchid\Helpers\Layouts\FormLayout::make($this->fields()),
         ];
     }
 
@@ -111,7 +111,7 @@ abstract class UpdateScreen extends EditScreen
     public function commandBar(): iterable
     {
         return [
-            \OrchidHelpers\Orchid\Helpers\Buttons\SaveButton::make()
+            \Orchid\Helpers\Orchid\Helpers\Buttons\SaveButton::make()
                 ->method('update'),
         ];
     }

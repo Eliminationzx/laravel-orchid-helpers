@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OrchidHelpers\Orchid\Helpers\Layouts;
+namespace Orchid\Helpers\Orchid\Helpers\Layouts;
 
 use Orchid\Support\Facades\Layout;
 
