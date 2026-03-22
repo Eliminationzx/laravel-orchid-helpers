@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace OrchidHelpers\Orchid\Helpers\Sights;
 
-use OrchidHelpers\\View\Components\Platform\BoolComponent;
+use OrchidHelpers\View\Components\Platform\BoolComponent;
 use Orchid\Screen\Sight;
 
 class BoolSight

@@ -9,9 +9,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use OrchidHelpers\\Orchid\Helpers\Alerts\SaveAlert;
-use OrchidHelpers\\Orchid\Helpers\Layouts\FormLayout;
-use OrchidHelpers\\Orchid\Helpers\Layouts\ModalLayout;
+use OrchidHelpers\Orchid\Helpers\Alerts\SaveAlert;
+use OrchidHelpers\Orchid\Helpers\Layouts\FormLayout;
+use OrchidHelpers\Orchid\Helpers\Layouts\ModalLayout;
 
 abstract class BulkActionScreen extends AbstractScreen
 {

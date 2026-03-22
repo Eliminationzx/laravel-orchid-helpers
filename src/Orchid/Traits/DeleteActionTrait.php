@@ -9,7 +9,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
-use OrchidHelpers\\Orchid\Helpers\Alerts\DestroyAlert;
+use OrchidHelpers\Orchid\Helpers\Alerts\DestroyAlert;
 
 /**
  * @mixin \Orchid\Screen\Screen
