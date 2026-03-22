@@ -11,7 +11,6 @@ class BooleanCheckbox
     public static function make(string $name) : CheckBox
     {
         return CheckBox::make("model.$name")
-            ->title(attrName($name))
-            ->sendTrueOrFalse();
+            ->title(attrName($name));
     }
 }

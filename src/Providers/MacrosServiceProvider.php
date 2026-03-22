@@ -28,5 +28,6 @@ class MacrosServiceProvider extends ServiceProvider
                 return $this;
             });
         }
+
     }
 }
