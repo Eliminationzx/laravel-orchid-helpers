@@ -7,7 +7,7 @@ namespace Orchid\Helpers\Orchid\Helpers\Screens;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use Orchid\\Helpers\\Orchid\Helpers\Layouts\FormLayout;
+use OrchidHelpers\\Orchid\Helpers\Layouts\FormLayout;
 
 abstract class ExportScreen extends AbstractScreen
 {

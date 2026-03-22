@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Orchid\Helpers\Orchid\Helpers\TD;
 
 use Illuminate\Database\Eloquent\Model;
-use Orchid\\Helpers\\View\Components\Platform\BoolComponent;
+use OrchidHelpers\\View\Components\Platform\BoolComponent;
 use Orchid\Screen\Repository;
 use Orchid\Screen\TD;
 use Orchid\Support\Blade;

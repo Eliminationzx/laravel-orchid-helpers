@@ -7,7 +7,7 @@ namespace Orchid\Helpers\Orchid\Helpers\Screens;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Orchid\\Helpers\\Orchid\Helpers\Alerts\SaveAlert;
+use OrchidHelpers\\Orchid\Helpers\Alerts\SaveAlert;
 
 abstract class CreateScreen extends EditScreen
 {

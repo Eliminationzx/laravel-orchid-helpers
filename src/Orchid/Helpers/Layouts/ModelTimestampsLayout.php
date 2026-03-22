@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Orchid\Helpers\Orchid\Helpers\Layouts;
 
-use Orchid\\Helpers\\Orchid\Helpers\Sights\CreatedAtSight;
-use Orchid\\Helpers\\Orchid\Helpers\Sights\UpdatedAtSight;
+use OrchidHelpers\\Orchid\Helpers\Sights\CreatedAtSight;
+use OrchidHelpers\\Orchid\Helpers\Sights\UpdatedAtSight;
 use Orchid\Screen\Layouts\Legend;
 use Orchid\Support\Facades\Layout;
 

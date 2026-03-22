@@ -8,9 +8,9 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Validator;
-use Orchid\\Helpers\\Orchid\Helpers\Alerts\SaveAlert;
-use Orchid\\Helpers\\Orchid\Helpers\Layouts\FormLayout;
-use Orchid\\Helpers\\Orchid\Helpers\Layouts\ModalLayout;
+use OrchidHelpers\\Orchid\Helpers\Alerts\SaveAlert;
+use OrchidHelpers\\Orchid\Helpers\Layouts\FormLayout;
+use OrchidHelpers\\Orchid\Helpers\Layouts\ModalLayout;
 
 abstract class ImportScreen extends AbstractScreen
 {

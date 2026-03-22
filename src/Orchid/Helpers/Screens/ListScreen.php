@@ -6,7 +6,7 @@ namespace Orchid\Helpers\Orchid\Helpers\Screens;
 
 use Illuminate\Database\Eloquent\Builder;
 use Orchid\Screen\Layout;
-use Orchid\\Helpers\\Orchid\Helpers\Layouts\ModelsTableLayout;
+use OrchidHelpers\\Orchid\Helpers\Layouts\ModelsTableLayout;
 
 abstract class ListScreen extends AbstractScreen
 {

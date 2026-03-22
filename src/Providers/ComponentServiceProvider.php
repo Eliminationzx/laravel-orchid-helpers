@@ -5,19 +5,19 @@ declare(strict_types=1);
 namespace Orchid\Helpers\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Orchid\\Helpers\\View\Components\Platform\AlertComponent;
-use Orchid\\Helpers\\View\Components\Platform\BadgeComponent;
-use Orchid\\Helpers\\View\Components\Platform\BoolComponent;
-use Orchid\\Helpers\\View\Components\Platform\ButtonComponent;
-use Orchid\\Helpers\\View\Components\Platform\CardComponent;
-use Orchid\\Helpers\\View\Components\Platform\CheckboxComponent;
-use Orchid\\Helpers\\View\Components\Platform\FormComponent;
-use Orchid\\Helpers\\View\Components\Platform\InputComponent;
-use Orchid\\Helpers\\View\Components\Platform\ModalComponent;
-use Orchid\\Helpers\\View\Components\Platform\RadioComponent;
-use Orchid\\Helpers\\View\Components\Platform\SelectComponent;
-use Orchid\\Helpers\\View\Components\Platform\TableComponent;
-use Orchid\\Helpers\\View\Components\Platform\TextareaComponent;
+use OrchidHelpers\\View\Components\Platform\AlertComponent;
+use OrchidHelpers\\View\Components\Platform\BadgeComponent;
+use OrchidHelpers\\View\Components\Platform\BoolComponent;
+use OrchidHelpers\\View\Components\Platform\ButtonComponent;
+use OrchidHelpers\\View\Components\Platform\CardComponent;
+use OrchidHelpers\\View\Components\Platform\CheckboxComponent;
+use OrchidHelpers\\View\Components\Platform\FormComponent;
+use OrchidHelpers\\View\Components\Platform\InputComponent;
+use OrchidHelpers\\View\Components\Platform\ModalComponent;
+use OrchidHelpers\\View\Components\Platform\RadioComponent;
+use OrchidHelpers\\View\Components\Platform\SelectComponent;
+use OrchidHelpers\\View\Components\Platform\TableComponent;
+use OrchidHelpers\\View\Components\Platform\TextareaComponent;
 
 class ComponentServiceProvider extends ServiceProvider
 {
